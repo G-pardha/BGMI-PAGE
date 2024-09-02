@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGMI...</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="img/Background-video.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="header2">
+           
+            <nav>
+                <div class="brand">
+                    <img src="img/logo.png" alt="" class="src">
+                </div>
+                <ul>
+                    <li><a href="#" target="_blaNK">Home</a></li>
+                    <li><a href="#" target="_blaNK">Enquiry</a></li>
+                    <li><a href="#" target="_blaNk" id="types">Types</a></li>
+                    <li><a href="#" target="_blaNK">Privacy policy</a></li>
+                    <li><a href="#"target="_blaNK">Contact</a></li>
+                </ul>
+                <div class="signuplogin">
+                    <button><a href="#" target="_blaNk">Signup/login</a></button>
+                </div>
+            </nav>
+            <section><div class="content">
+                <h1>BGMI</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quaerat laboriosam exercitationem
+                 et velit, deserunt ab error fugiat ratione eos sint ipsum, distinctio amet ipsa doloribus vo
+                 luptatibus dolores minus tempora.</p>
+                <button><a href="#"target="_main">learn more</button></a>
+
+                
+            </div>
+            
+        </section>
+        <footer id="footer">
+            <li><a href="#" target="_blank">instagram</a> </li>
+            <li><a href="#" target="_blaNK">facebook</a></li>
+            <li><a href="#" target="_blank" >whatsapp</a></li>
+        </footer>
+        </div>
+    </header>
+
+    <script>
+        const types = document.getElementById("types");
+        const footer = document.getElementById("footer");
+
+        types.addEventListener('click',()=>{
+            footer.classList.toggle("footers");
+            types.classList.toggle("clicks");
+        });
+    </script>
+</body>
+</html>
